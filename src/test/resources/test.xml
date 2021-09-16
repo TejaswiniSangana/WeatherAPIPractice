@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Weather API Suite" parallel="classes">
+    <test name="Current Weather Data Test">
+        <classes>
+            <class name="com.weatherapi.tests.TestCurrentWeatherData">
+            </class>
+        </classes>
+    </test>
+</suite>
